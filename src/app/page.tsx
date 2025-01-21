@@ -2,7 +2,7 @@
 "use client"; // Menandai file ini sebagai komponen klien
 
 import { useEffect, useState } from 'react';
-import { supabase } from './lib/supabaseClient';
+import supabase from './lib/supabaseClient';
 
 interface Tweet {
     id: number; // Ganti dengan tipe data yang sesuai
