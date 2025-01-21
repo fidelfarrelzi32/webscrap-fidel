@@ -10,7 +10,7 @@ interface Tweet {
     created_at: string; // Jika Anda ingin menampilkan tanggal pembuatan
 }
 
-const TweetsPage = () => {
+const Page = () => {
     const [tweets, setTweets] = useState<Tweet[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
@@ -71,4 +71,4 @@ const TweetsPage = () => {
     );
 };
 
-export default TweetsPage;
+export default Page;
